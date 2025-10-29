@@ -10,7 +10,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://zerotrace.example"),
+  metadataBase: new URL("https://udayxxkumar.github.io/zerotrace"),
   title: {
     default: "zerotrace",
     template: "%s | zerotrace",

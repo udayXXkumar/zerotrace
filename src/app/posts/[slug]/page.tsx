@@ -38,7 +38,8 @@ export default async function PostPage({ params }: { params: { slug: string } })
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const post = await getPostBySlug(params.slug);
   if (!post) return {};
-  const url = `https://zerotrace.example/posts/${post.slug}`;
+
+  const url = `https://udayxxkumar.github.io/zerotrace/posts/${post.slug}`;
   return {
     title: post.frontmatter.title,
     description: post.frontmatter.excerpt,

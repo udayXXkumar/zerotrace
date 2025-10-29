@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://zerotrace.example',
+  siteUrl: 'https://udayxxkumar.github.io/zerotrace',
   generateRobotsTxt: true,
   outDir: 'out',
 };

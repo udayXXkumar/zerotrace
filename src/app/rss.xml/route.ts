@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/posts";
 export const dynamic = "error"; // SSG only
 
 export async function GET() {
-  const siteUrl = "https://zerotrace.example";
+  const siteUrl = "https://udayxxkumar.github.io/zerotrace";
   const feed = new Feed({
     id: siteUrl,
     title: "zerotrace",
