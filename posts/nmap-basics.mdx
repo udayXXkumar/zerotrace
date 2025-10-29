@@ -1,0 +1,22 @@
+---
+title: "Recon 101: Nmap Tactics"
+date: "2025-02-12"
+tags: [recon, networking, nmap]
+excerpt: "A practical primer on host discovery and service enumeration."
+---
+
+Nmap remains a foundational capability for network recon.
+
+```bash
+nmap -sC -sV -oA baseline 10.10.10.0/24
+```
+
+Key flags:
+
+- `-sC`: default scripts
+- `-sV`: version detection
+- `-oA`: output all formats with prefix
+
+Use thoughtfully; always ensure authorization.
+
+
