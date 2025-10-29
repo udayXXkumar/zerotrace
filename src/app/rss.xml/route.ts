@@ -11,6 +11,8 @@ export async function GET() {
     description: "Anonymous infosec notes and write-ups",
     link: siteUrl,
     language: "en",
+    copyright: `© ${new Date().getFullYear()} zerotrace`,
+    generator: "nextjs-feed",
   });
 
   const posts = await getAllPosts();
